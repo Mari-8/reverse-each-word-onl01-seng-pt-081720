@@ -1,9 +1,5 @@
 def reverse_each_word(string)
-  arr = string.split(" ")
-  reversed_ones = ""
-  counter = 0
-  arr.map { |reversed| reversed.reverse << reversed_ones}
-  
+  puts string.reverse
 end
 
 
