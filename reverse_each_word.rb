@@ -3,7 +3,7 @@ def reverse_each_word(string)
   reversed = ""
   counter = 0
   while counter < arr.length
-    print arr[counter].reverse
+    return arr[counter].reverse
     counter += 1
   end
  reversed
